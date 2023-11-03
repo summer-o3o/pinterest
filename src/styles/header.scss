@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 4px 5px 16px;
+  border-bottom: 1px solid #dedede;
+
+  .tit_logo {
+    width: 100px;
+  }
+
+  .wrap_button {
+    & [class*='btn_'] {
+      padding: 5px 12px;
+    }
+  }
+}
